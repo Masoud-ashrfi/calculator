@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.my-custom-class {
+  @apply border-0 outline-0  w-[60px] h-[60px] rounded-xl text-[20px] text-white cursor-pointer m-[10px] bg-transparent;
+}
+.custom-operator-class {
+  @apply border-0 outline-0  w-[60px] h-[60px] rounded-xl text-[20px] cursor-pointer m-[10px] bg-transparent text-[#33ffd8];
+}
